@@ -1,0 +1,258 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    list-style: none;
+    padding: 10px;
+     /* font-size: 1.2em; */
+}
+
+.left_nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+    width: 20%;
+}
+
+.right_nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 7%;
+    width: 45%;
+    cursor: pointer;
+}
+.right_nav li:last-child{
+    background-color: rgb(238, 238, 37);
+}
+.right_nav li{
+    padding: .5rem;
+}
+
+.hero{
+    background: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)),url("./img/hero_background.avif");
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+     color: white;
+}
+
+.text_content{
+
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    position: relative;
+    top: 30vh;
+    left: 7vw;
+    font-size: 1.4rem;
+    gap: 1.8rem;
+}
+.text_content h1{
+    font-size: 3.5em;
+}
+.text_content p{
+    width: 80%;
+}
+
+.text_btn_div{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.text_btn_div span:first-child{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-color: yellow;
+    padding: 12px 10px;
+    width: 10%;
+    font-size: 1.7em;
+    color: black;
+    font-weight: 100;
+} 
+
+.middle{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    position: relative;
+    top: 2vh;
+    left: 7vw;
+    font-size: 1.4rem;
+    gap: 1rem;
+}
+
+.mid_logo_section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+.mid_content h1{
+    font-size: 2rem;
+}
+.mid_text{
+    font-size: .8rem;
+}
+.mid_btn{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+.mid_btn span:first-child{
+    background-color: black;
+    color: white;
+    gap: 10px;
+    
+}
+.span_text{
+    font-size: .8rem;
+}
+.mid_img_section{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    padding: 10px;
+    margin: 10px;
+}
+.mid_imgs{
+    width: 100%;
+    display: flex ;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+
+.footer_img{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.2)),url("./img/footer_img.avif");
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+    color: white;
+    gap: 15px;
+}
+
+.footer_content{
+    border-left: 1px solid lightgray ;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    position: relative;
+    top: 20vh;
+    left: 5vw;
+    font-size: 1.4rem;
+    gap: 3rem;
+    padding-left: 3rem;
+    
+}
+
+.footer_text h2{
+    font-size: 2.5em;
+
+}
+.footer_text p{
+    font-size: 1em;
+    /* width: 70%; */
+}
+.footer_btn{
+    padding: 50px 5px;
+}
+
+.footer_btn span:first-child{
+    background-color: rgb(214, 214, 55);
+    width: 10px;
+    font-size: 1.5em;
+    color: black;
+    padding: 12px 10px;
+    margin-right: 35px;
+
+}
+.second_footer{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+    height: 70vh;
+}
+
+.footer_heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px;
+}
+
+.second_footer_imgs{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    flex-direction: row;
+    width: 80%;
+}
+
+.thrid_footer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 15rem;
+    padding: 15px 28px;
+    gap: 50px;
+}
+
+.third_footer_head{
+    display: flex;
+    align-items: center;
+    gap: 30px 10px;
+    font-size: 1.3em;
+    
+}
+
+.third_middle_text h1{
+    font-size: 3em;
+
+}
+
+.third_footer_btn{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.third_footer_btn i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-color:black;
+    padding: 10px 8px;
+    width: 5%;
+    font-size: 1.7em;
+    color:white;
+    /* font-weight: 100; */
+}

@@ -148,7 +148,7 @@ nav{
 .footer_img{
     display: flex;
     flex-direction: column;
-    background: linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.2)),url("./img/footer_img.avif");
+    background: linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.2)),url("./footer_img.avif");
     background-position: center;
     background-size: cover;
     height: 90vh;
@@ -257,3 +257,4 @@ nav{
     /* font-weight: 100; */
 
 }
+

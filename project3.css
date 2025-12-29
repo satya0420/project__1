@@ -45,7 +45,7 @@ nav{
 }
 
 .hero{
-    background: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)),url("./img/hero_background.avif");
+    background: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)),url("./hero_background.avif");
     background-position: center;
     background-size: cover;
     height: 80vh;
@@ -255,4 +255,5 @@ nav{
     font-size: 1.7em;
     color:white;
     /* font-weight: 100; */
+
 }
